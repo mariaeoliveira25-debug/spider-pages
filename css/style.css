@@ -1,0 +1,59 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: darkred;
+ }
+
+ header {
+    background-color: brown;
+    color: black;
+    padding: 20px;
+ }
+ 
+ #header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+ 
+header p {
+    color: black;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 540;
+    color: black;
+}
+
+.paragrafo {
+    color: darkgray;
+    text-transform: uppercase;
+}
+
+div-header {
+    display: flex;
+}
+
+#intro {
+    margin-top: 20px;
+    font-size: large;
+}
+#introduçao {
+    padding: 30px;
+    display: flex;
+    gap:20px;
+}
+
+#intro-article {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
